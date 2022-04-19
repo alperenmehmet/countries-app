@@ -28,8 +28,6 @@ export function SingleCountry() {
     getCountry();
   }, [name]);
 
-  console.log(country[0]);
-
   return (
     <Container maxWidth='container.xl'>
       <Flex>

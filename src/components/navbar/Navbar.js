@@ -1,7 +1,8 @@
 import { useColorMode, Button, Text } from '@chakra-ui/react';
 
 export function Navbar() {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { toggleColorMode } = useColorMode();
+
   return (
     <nav className='nav'>
       <div className='section-center nav-center'>

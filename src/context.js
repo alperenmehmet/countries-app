@@ -41,8 +41,6 @@ const AppProvider = ({ children }) => {
     fetchCountries();
   }, [fetchCountries]);
 
-  console.log(filteredCountry);
-
   return (
     <AppContext.Provider
       value={{

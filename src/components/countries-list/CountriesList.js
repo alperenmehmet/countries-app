@@ -1,4 +1,4 @@
-import { Flex, Box } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { useGlobalContext } from '../../context';
 import ContinentFilter from '../continent-filter/ContinentFilter';
 import { CountryCard } from '../country-card/CountryCard';

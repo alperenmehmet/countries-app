@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 export function CountryCard({ name, population, region, capital, flags }) {
   const newName = name.official.replace(/\s/g, '').toLowerCase();
 
-  const theme = localStorage.getItem('chakra-ui-color-mode');
-
   return (
     <Box className='country-card'>
       <Link to={`/${newName}`}>
